@@ -16,4 +16,5 @@ contaCorrenteJoao.transferir(50, contaCorrenteMaria);
 
 console.log("Saldo Maria: " + contaCorrenteMaria.verificarSaldo());
 console.log("Saldo João: " + contaCorrenteJoao.verificarSaldo());
+console.log(ContaCorrente.numeroContas + " Contas abertas.");
 console.log(cliente1,"\n",cliente2);
