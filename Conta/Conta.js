@@ -8,6 +8,14 @@ export class Conta{
         }
     }
 
+    get cliente(){
+        return this._cliente;
+    }
+
+    get saldo(){
+        return this._saldo;
+    }
+
     sacar(valor) {
         throw new Error("O método sacar da conta é abstrato.")
     }
